@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+:root {
+  --white: #fff;
+  --grey: #b9babd;
+  --black: #211a10;
+  --blue: #0084fe;
+  --green: #0ffb8c;
+  --red: #e01245;
+  --yellow: #fffb8c;
+  --pink: #d790b0;
+}
+
+html {
+  color: var(--black);
+  font-size: 1em;
+  height: 100%;
+  background: var(--grey);
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 800;
+  color: var(--grey);
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: 800;
+}
+
+header,
+footer,
+main {
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+header {
+  background: var(--black);
+  color: white;
+}
+
+section {
+  border-bottom: 2px solid var(--black);
+  padding: 20px 0 60px;
+  margin-bottom: 40px;
+}
+
+section:last-child {
+  padding: 20px 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.element {
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.element-default {
+  color: black;
+}
+
+.element-box {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.element-box-big {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.element-med {
+  font-size: 1.4rem;
+}
+
+.element-big {
+  font-size: 2rem;
+}
+
+.element-green {
+  background: var(--green);
+  color: var(--black);
+}
+
+.element-blue {
+  background: var(--blue);
+}
+
+.element-red {
+  background: var(--red);
+}
+
+.element-yellow {
+  color: var(--black);
+  background: var(--yellow);
+}
+
+.element-pink {
+  background: var(--pink);
+}
+
+.element-grey {
+  color: var(--black);
+  background: var(--grey);
+}
+
+.exercice {
+  width: 100%;
+  display: flex;
+}
+
+.exercice .container {
+  width: 50%;
+  border: 4px dashed var(--black);
+  box-sizing: border-box;
+  background: var(--white);
+}
+
+.exercice .container-set {
+  height: 300px;
+  overflow: hidden;
+}
+
+.exercice .container-small {
+  min-height: 205px;
+}
+
+.exercice .container-big {
+  min-height: 410px;
+}
+
+.exercice .thumbnail {
+  width: 50%;
+  background: var(--white);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.exercice .thumbnail img {
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+  height: auto;
+  border: 2px dashed var(--black);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
