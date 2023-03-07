@@ -41,6 +41,11 @@ display: flex;
 }
 
 /* 5. exercice-5 */
+.exercice-5 .container {
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* 6. exercice-6 */
 
