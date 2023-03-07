@@ -60,8 +60,7 @@ display: flex;
 
 /* 7. exercice-7 */
 .exercice-7 .container {
-  flex-direction: column-reverse;
-  flex-wrap: wrap-reverse;
+  flex-flow: column-reverse wrap-reverse;
   align-content: center;
   justify-content: space-between;
 }
