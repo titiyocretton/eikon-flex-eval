@@ -85,4 +85,7 @@ display: flex;
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
-
+.exercice-10 .container {
+  align-items: center;
+  justify-content: center;
+}
