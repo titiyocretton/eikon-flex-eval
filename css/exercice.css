@@ -83,6 +83,18 @@ display: flex;
 }
 
 /* 9. exercice-9 */
+.exercice-9 .container {
+  flex-wrap: wrap;
+  align-items: baseline;
+  max-width: 50%;
+}
+
+.exercice-9 .element {
+  max-width: 225px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
 
 /* 10. exercice-10 */
 .exercice-10 .container {
