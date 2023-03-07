@@ -4,7 +4,6 @@ display: flex;
 /* 1. exercice-1 */
 .exercice-1 .container {
   align-items: center;
-  justify-content: center;
   justify-content: space-around;
 }
 
