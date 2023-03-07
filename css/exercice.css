@@ -67,6 +67,20 @@ display: flex;
 }
 
 /* 8. exercice-8 */
+.exercice-8 .container {
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+}
+
+.exercice-8 .element-pink {
+  order: 1;
+}
+
+.exercice-8 .element-pink,
+.exercice-8 .element-blue {
+  flex-grow: 1;
+}
 
 /* 9. exercice-9 */
 
